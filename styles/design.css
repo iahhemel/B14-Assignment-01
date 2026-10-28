@@ -253,6 +253,24 @@
     border: 1px solid #0c1b2a;
     color: #0c1b2a;
 }
-
+footer{
+    width: 1551px;
+    height: 145px;
+     background-color: #0D1B2A;
+}
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 56px 60px 32px;
+    color: #FFFFFF;
+    font-size: 16px;
+   
+    
+}
+.footer-right{
+     display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
 
 
