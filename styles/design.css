@@ -125,3 +125,133 @@
     margin-top: 0;
 }
 
+/* Select your spot css */
+
+.secure-spot-title{
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.secure-spot-title h1{
+    font-size: 42px; 
+    font-weight: 700;
+    max-width: 550px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+}
+
+.secure-spot-title p{
+    font-size: 13px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plan-box-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    gap: 90px;
+    
+}
+.container.plan-box-parent hr{
+ color: #888888;
+ border: none;
+ height: 1px;
+ background-color: #e5e7eb;
+}
+
+.plan-box-parent ul {
+    padding-left: 15px; 
+    margin: 0;
+    
+}
+.plan-box-parent li {
+    margin-bottom: 10px; 
+    margin-top: 10px;
+    font-size: 14px;
+    
+    
+    
+}
+.plan-box-parent li::marker {
+    color: #2563EB ;
+}
+.plan-box{
+    border: 1px solid #dee1e5;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    flex: 1;
+    
+
+}
+
+.plan-box h2{
+    font-size: 35px ;
+    font-weight: 700;
+}
+.plan-box p{
+    font-weight: 600;
+    font-size: 16px;
+    color: #888888;
+}
+.plan-box h4{
+     font-weight: 500;
+    font-size: 13px;
+    color: #888888;
+    margin-bottom: 10px;
+}
+.btn-parent-spot{
+    border-radius: 7px;
+    border: 1px solid #356eed;
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    color: #356eed;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+}
+.btn-parent-spot b{
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+.plan-box.b2{
+ background-color: #0c1b2a;
+}
+.plan-box.b2 p{
+    color: #93c5fd;
+}
+.plan-box.b2 h2{
+    color: #ffffff;
+}
+.plan-box.b2 h4{
+    columns: #868d95;
+}
+.plan-box.b2 hr {
+    color: #FFFFFF;
+}
+.plan-box.b2 li{
+    color: #FFFFFF;
+ 
+}
+.btn-parent-spot.b2{
+    background-color: #2563EB;
+    color: #FFFFFF;
+}
+
+.plan-box.b3{
+    background-color: #F8F9FB;
+}
+.btn-parent-spot.b3{
+    border: 1px solid #0c1b2a;
+    color: #0c1b2a;
+}
+
+
